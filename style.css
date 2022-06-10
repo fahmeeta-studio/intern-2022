@@ -9,7 +9,7 @@
 }
 body {
   min-height: 100vh;
-  font-family: Impact, fantasy;
+  font-family: Impact;
   font-weight: 300;
   font-size: 1.25rem;
   display: flex;
@@ -50,7 +50,7 @@ p {
 
 .header-text {
     background-color: rgba(255, 0, 242, 0.2);
-    font-family: Impact, fantasy;
+    font-family: Impact;
     font-weight: bold;
     color:rgb(200, 255, 127);
     justify-content: center;
@@ -60,7 +60,7 @@ p {
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: Impact, fantasy;
+  font-family: Impact;
   font-weight: 400;
   text-transform: uppercase;
   font-size: calc(2rem + 5vw);
