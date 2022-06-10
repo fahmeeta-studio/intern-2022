@@ -31,7 +31,7 @@ p {
     }
 
     75% {
-        font-size: 300%;
+        font-size: 200%;
         margin-left: 25%;
         width: 150%;
     }
@@ -139,4 +139,19 @@ p {
   100% {
     transform: translate(0px, 0px);
   }
+}
+
+.square{
+  width: 250px;
+  height: 40px;
+  background: greenyellow;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow: 
+    -1px -1px #ff00f2, 
+    inset -1px -1px 0 0 #ff00f2;
+}
+
+.tasks{
+  display:flex;
 }
